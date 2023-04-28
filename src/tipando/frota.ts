@@ -1,4 +1,10 @@
-export const frota: {}[] = [
+export type TFrota = {
+  marca: string,
+  modelo: string,
+  ano: number
+}
+
+export const frota: TFrota[] = [
   {
     marca: 'Chevrolet',
     modelo: 'Onix',
